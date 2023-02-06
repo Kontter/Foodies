@@ -1,0 +1,81 @@
+/* ======================================================1005================================ */
+
+@media (max-width: 1105px) {
+    .features-block-img {
+        width: 268px;
+    }
+    .features-block-info {
+        padding: 17px 18px 18px 23px;
+    }
+}
+/* ======================================================1000================================ */
+@media (max-width: 1000px) {
+    .features-block-img {
+        width: 341px;
+    }
+    .features-block-item {
+        display: block;
+    }
+    .features-block-item2  {
+        flex-direction: column-reverse;
+    }
+    .features-block1:not(:last-child) {
+        margin-bottom: 35px;
+    }
+    .features-block-info {
+        padding: 17px 10px 18px 10px;
+        max-width: 340px;
+    }
+}
+/* ======================================================730================================ */
+@media (max-width: 730px) {
+    .features-block-img {
+        width: 260px;
+    }
+    .features-block-info {
+        padding: 17px 18px 18px 23px;
+        max-width: 260px;
+    }
+}
+/* ======================================================555================================ */
+@media (max-width: 555px) {
+    .features-block1 {
+        flex-direction: column;
+    }
+    .features-block1:not(:last-child) {
+        margin-bottom: 0px;
+    }
+    .features-block-info {
+        max-width: 437px;
+        margin: 0 auto;
+        padding: 17px 18px 27px 23px;
+    }
+    .features-block-img {
+        width: 437px;
+        margin: 0 auto;
+        display: block;
+    }
+    .features-block-descr {
+        margin-bottom: 22px;
+    }
+}
+/* ======================================================460================================ */
+@media (max-width: 460px) {
+    .features-block-info {
+        max-width: 274px;
+    }
+    .features-block-img {
+        width: 274px;
+    }
+    .features-title {
+        margin: 0 auto 35px auto;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .features-block-title {
+        font-size: 32px;
+    }
+    .features {
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,94 @@
+/* ======================================================1130================================ */
+
+@media (max-width: 1130px) {
+    .stars-img {
+        width: 395px;
+    }
+    .stars-right {
+        padding: 0px 0 35px 35px;
+    }
+    .stars-title {
+        font-size: 50px;
+        line-height: 64px;
+    }
+}
+/* ======================================================1000================================ */
+@media (max-width: 1000px) {
+    .stars-title {
+        font-size: 37px;
+        line-height: 55px;
+    }
+    .stars-item:not(:last-child) {
+        margin-right: 33px;
+    }
+    .stars-left {
+        padding-top: 20px;
+    }
+    .stars-right {
+        padding: 0px 0 20px 20px;
+    }
+    .stars {
+        margin-bottom: 100px;
+    }
+}
+/* ======================================================870================================ */
+@media (max-width: 870px) {
+    .stars-container {
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+    .stars-right {
+        max-width: 445px;
+        padding: 0 21px 32px 21px;
+        margin: 0 auto;
+        background: #F3FAFB;
+    }
+    .stars-left {
+        margin: 0 auto;
+    }
+    .stars-headline {
+        text-align: center;
+    }
+    .stars-title {
+        text-align: center;
+        font-size: 46px;
+        line-height: 60px;
+        margin-bottom: 40px;
+    }
+    .stars-info {
+        flex-direction: column;
+    }
+    .stars-item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 39px;
+    }
+    .stars-btn {
+        display: block;
+        max-width: 233px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
+/* ======================================================460================================ */
+@media (max-width: 460px) {
+    .stars-img {
+        width: 274px;
+    }
+    .stars-right {
+        padding: 0 20px 20px 20px;
+    }
+    .stars-title {
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 25px;
+    }
+    .stars-item-title {
+        margin-bottom: 5px;
+    }
+    .stars-item:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    .stars-info {
+        margin-bottom: 30px;
+    }
+}

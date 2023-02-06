@@ -1,0 +1,21 @@
+/* ======================================================900================================ */
+
+@media (max-width: 900px) {
+    .ingredients-container {
+        padding: 110px 50px 87px 50px;
+    }
+}
+/* ======================================================560================================ */
+@media (max-width: 560px) {
+    .ingredients-title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .ingredients-container {
+        padding: 110px 20px 87px 20px;
+    }
+    .ingredients-btn {
+        padding: 20px 57px 20px 18px;
+        background-position: 152px 25px;
+    }
+}
